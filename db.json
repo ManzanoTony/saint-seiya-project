@@ -1,8 +1,29 @@
 {
-  "COLLECTION_NAME_HERE": [
+  "saints": [
     {
-      "id": "1234",
-      "KEY_HERE": "VALUE_HERE"
+      "id": "1",
+      "name": "Seiya",
+      "constellation": "Pegasus",
+      "rank": "Bronze",
+      "cosmosPower": 85,
+      "specialMove": "Pegasus Meteor Fist",
+      "status": "Active"
+    },
+    {
+      "id": "2",
+      "name": "Saga",
+      "constellation": "Gemini",
+      "rank": "Gold",
+      "cosmosPower": 98,
+      "specialMove": "Galaxian Explosion",
+      "status": "Resurrected Specter"
+    }
+  ],
+  "dispatches": [
+    {
+      "id": "1",
+      "message": "Shaka of Virgo's eyes opened in the Gold Temple!",
+      "timestamp": "10:42 AM"
     }
   ]
 }
