@@ -1,29 +1,256 @@
 {
-  "saints": [
+  "ranks": [
     {
       "id": "1",
-      "name": "Seiya",
-      "constellation": "Pegasus",
-      "rank": "Bronze",
-      "cosmosPower": 85,
-      "specialMove": "Pegasus Meteor Fist",
-      "status": "Active"
+      "name": "Guard",
+      "description": "Standard Sanctuary defensive force"
     },
     {
       "id": "2",
-      "name": "Saga",
-      "constellation": "Gemini",
-      "rank": "Gold",
-      "cosmosPower": 98,
-      "specialMove": "Galaxian Explosion",
-      "status": "Resurrected Specter"
+      "name": "Bronze",
+      "description": "Frontline Saints with core Cosmos abilities"
+    },
+    {
+      "id": "3",
+      "name": "Silver",
+      "description": "Elite tactical enforcers and temple guardians"
+    },
+    {
+      "id": "4",
+      "name": "Gold",
+      "description": "Supreme Masters of the 12 Zodiac Temples"
+    },
+    {
+      "id": "5",
+      "name": "Legendary",
+      "description": "The mythic 13th Gold Saint"
     }
   ],
-  "dispatches": [
+  "saints": [
     {
       "id": "1",
-      "message": "Shaka of Virgo's eyes opened in the Gold Temple!",
-      "timestamp": "10:42 AM"
+      "name": "Sanctuary Guard Alpha",
+      "rankId": "1",
+      "constellation": "None",
+      "cosmosPower": 30,
+      "status": "Ready",
+      "image": "/Generic-Warrior-1.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Sanctuary Guard Beta",
+      "rankId": "1",
+      "constellation": "None",
+      "cosmosPower": 35,
+      "status": "Ready",
+      "image": "/Generic-Warrior-2.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Seiya",
+      "rankId": "2",
+      "constellation": "Pegasus",
+      "cosmosPower": 120,
+      "status": "Ready",
+      "image": "/Seiya.png"
+    },
+    {
+      "id": "4",
+      "name": "Shiryu",
+      "rankId": "2",
+      "constellation": "Draco",
+      "cosmosPower": 115,
+      "status": "Ready",
+      "image": "/Shiryu.png"
+    },
+    {
+      "id": "5",
+      "name": "Hyoga",
+      "rankId": "2",
+      "constellation": "Cygnus",
+      "cosmosPower": 110,
+      "status": "Ready",
+      "image": "/Hyoga.png"
+    },
+    {
+      "id": "6",
+      "name": "Shun",
+      "rankId": "2",
+      "constellation": "Andromeda",
+      "cosmosPower": 105,
+      "status": "Ready",
+      "image": "/Shun.png"
+    },
+    {
+      "id": "7",
+      "name": "Ikki",
+      "rankId": "2",
+      "constellation": "Phoenix",
+      "cosmosPower": 130,
+      "status": "Ready",
+      "image": "/Ikki.png"
+    },
+    {
+      "id": "8",
+      "name": "Marin",
+      "rankId": "3",
+      "constellation": "Aquila",
+      "cosmosPower": 150,
+      "status": "Ready",
+      "image": "/Marin.png"
+    },
+    {
+      "id": "9",
+      "name": "Shaina",
+      "rankId": "3",
+      "constellation": "Ophiuchus (Silver)",
+      "cosmosPower": 155,
+      "status": "Ready",
+      "image": "/Shaina.png"
+    },
+    {
+      "id": "10",
+      "name": "Misty",
+      "rankId": "3",
+      "constellation": "Lizard",
+      "cosmosPower": 160,
+      "status": "Ready",
+      "image": "/Misty.png"
+    },
+    {
+      "id": "11",
+      "name": "Algol",
+      "rankId": "3",
+      "constellation": "Perseus",
+      "cosmosPower": 165,
+      "status": "Ready",
+      "image": "/Algol.png"
+    },
+    {
+      "id": "12",
+      "name": "Orphée",
+      "rankId": "3",
+      "constellation": "Lyra",
+      "cosmosPower": 180,
+      "status": "Ready",
+      "image": "/Orphée.png"
+    },
+    {
+      "id": "13",
+      "name": "Mu",
+      "rankId": "4",
+      "constellation": "Aries",
+      "cosmosPower": 240,
+      "status": "Ready",
+      "image": "/Mu.png"
+    },
+    {
+      "id": "14",
+      "name": "Aldebaran",
+      "rankId": "4",
+      "constellation": "Taurus",
+      "cosmosPower": 235,
+      "status": "Ready",
+      "image": "/Aldebaran.png"
+    },
+    {
+      "id": "15",
+      "name": "Saga",
+      "rankId": "4",
+      "constellation": "Gemini",
+      "cosmosPower": 275,
+      "status": "Ready",
+      "image": "/Saga.png"
+    },
+    {
+      "id": "16",
+      "name": "Deathmask",
+      "rankId": "4",
+      "constellation": "Cancer",
+      "cosmosPower": 230,
+      "status": "Ready",
+      "image": "/Deathmask.png"
+    },
+    {
+      "id": "17",
+      "name": "Aiolia",
+      "rankId": "4",
+      "constellation": "Leo",
+      "cosmosPower": 255,
+      "status": "Ready",
+      "image": "/Aiolia.png"
+    },
+    {
+      "id": "18",
+      "name": "Shaka",
+      "rankId": "4",
+      "constellation": "Virgo",
+      "cosmosPower": 280,
+      "status": "Ready",
+      "image": "/Shaka.png"
+    },
+    {
+      "id": "19",
+      "name": "Dohko",
+      "rankId": "4",
+      "constellation": "Libra",
+      "cosmosPower": 270,
+      "status": "Ready",
+      "image": "/Dohko.png"
+    },
+    {
+      "id": "20",
+      "name": "Milo",
+      "rankId": "4",
+      "constellation": "Scorpio",
+      "cosmosPower": 250,
+      "status": "Ready",
+      "image": "/Milo.png"
+    },
+    {
+      "id": "21",
+      "name": "Aiolos",
+      "rankId": "4",
+      "constellation": "Sagittarius",
+      "cosmosPower": 265,
+      "status": "Ready",
+      "image": "/Aiolos.png"
+    },
+    {
+      "id": "22",
+      "name": "Shura",
+      "rankId": "4",
+      "constellation": "Capricorn",
+      "cosmosPower": 245,
+      "status": "Ready",
+      "image": "/Shura.png"
+    },
+    {
+      "id": "23",
+      "name": "Camus",
+      "rankId": "4",
+      "constellation": "Aquarius",
+      "cosmosPower": 250,
+      "status": "Ready",
+      "image": "/Camus.png"
+    },
+    {
+      "id": "24",
+      "name": "Aphrodite",
+      "rankId": "4",
+      "constellation": "Pisces",
+      "cosmosPower": 240,
+      "status": "Ready",
+      "image": "/Aphrodite.png"
+    },
+    {
+      "id": "25",
+      "name": "Odysseus",
+      "rankId": "5",
+      "constellation": "Ophiuchus (13th Gold)",
+      "cosmosPower": 300,
+      "status": "Ready",
+      "image": "/Ophiuchus.png"
     }
   ]
 }
