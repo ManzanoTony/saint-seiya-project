@@ -85,6 +85,17 @@
       "lore": "Trained in the frozen wastes of Siberia by Camus of Aquarius. He commands ice-based techniques like the Diamond Dust and Aurora Execution, tied deeply to the tragic memory of his mother trapped beneath the icy waters of the Kara Sea."
     },
     {
+      "id": "6",
+      "name": "Shun",
+      "rank": "Bronze",
+      "constellation": "Andromeda",
+      "cosmosPower": 115,
+      "status": "Ready",
+      "image": "/Shun.png",
+      "isCustom": false,
+      "lore": "Trained on Death Queen Island and Andromeda Island, he possesses one of the most powerful and versatile defenses in the universe through the Andromeda Chain. Despite his immense latent power and gentle, pacifist nature, he harbors a sacred destiny as the true vessel of Hades."
+    },
+    {
       "id": "7",
       "name": "Ikki",
       "rank": "Bronze",
@@ -205,7 +216,8 @@
       "status": "Ready",
       "image": "/Aiolia.png",
       "isCustom": false,
-      "lore": "The younger brother of Aiolos, burdened for years by the stigma of being a traitor's sibling. Once enlightened to the truth of Pope Saga's betrayal, he became a fierce defender of Athena, utilizing his blinding Lightning Bolt and Lightning Plasma attacks."
+      "lore": "The younger brother of Aiolos, burdened for years by the stigma of being a traitor's sibling. Once enlightened to the truth of Pope Saga's betrayal, he became a fierce defender of Athena, utilizing his blinding Lightning Bolt and Lightning Plasma attacks.",
+      "comments": "This ones gets angry all the time"
     },
     {
       "id": "18",
@@ -270,7 +282,7 @@
       "constellation": "Aquarius",
       "cosmosPower": 250,
       "status": "Ready",
-      "image": "/Camus.png",
+      "image": "/Milo.png",
       "isCustom": false,
       "lore": "The master of ice and cold, known as the 'Water and Cold Magician'. He trained Hyoga in Siberia, seeking to teach him true detachment through the ultimate freezing technique, the Aurora Execution."
     },
