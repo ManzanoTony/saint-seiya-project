@@ -28,44 +28,23 @@
   ],
   "saints": [
     {
-      "id": "1",
-      "name": "Sanctuary Guard Alpha",
-      "rank": "Guard",
-      "constellation": "None",
-      "cosmosPower": 30,
-      "status": "Ready",
-      "image": "/Generic-Warrior-1.jpg",
-      "isCustom": false,
-      "lore": "An unnamed foot soldier of the Sanctuary's standing army. Stationed throughout the holy grounds under the direct command of the Pope, guards like Alpha patrol the perimeter, maintain order, and act as the first line of defense against unauthorized intruders."
-    },
-    {
-      "id": "2",
-      "name": "Sanctuary Guard Beta",
-      "rank": "Guard",
-      "constellation": "None",
-      "cosmosPower": 35,
-      "status": "Ready",
-      "image": "/Generic-Warrior-2.jpg",
-      "isCustom": false,
-      "lore": "A standard-issue Sanctuary guard tasked with surveillance and protecting the lower terraces of the Twelve Temples. Though uninitiated in the mastery of true Cosmos, they maintain watch over the sacred domain during times of peace and war."
-    },
-    {
       "id": "3",
       "name": "Seiya",
-      "rank": "Bronze",
+      "rank": "Bronze Saint",
       "constellation": "Pegasus",
       "cosmosPower": 120,
       "status": "Ready",
       "image": "/Seiya.png",
       "isCustom": false,
-      "lore": "The quintessential Bronze Saint trained by Marin in Sanctuary. He unlocked the true power of his Cosmos to win the Pegasus Cloth, fought through the Galaxian Wars and the Twelve Temples to save Athena, and repeatedly wielded the God Cloth against Hades."
+      "lore": "The quintessential Bronze Saint trained by Marin in Sanctuary. He unlocked the true power of his Cosmos to win the Pegasus Cloth, fought through the Galaxian Wars and the Twelve Temples to save Athena, and repeatedly wielded the God Cloth against Hades.",
+      "comments": ""
     },
     {
       "id": "4",
       "name": "Shiryu",
       "rank": "Bronze Saint",
       "constellation": "Draco",
-      "cosmosPower": 115,
+      "cosmosPower": 160,
       "status": "Ready",
       "image": "/Shiryu.png",
       "isCustom": false,
@@ -80,7 +59,7 @@
       "cosmosPower": 110,
       "status": "Ready",
       "image": "/Hyoga.png",
-      "comments": "He always cries because of his mom's death.",
+      "comments": "",
       "isCustom": false,
       "lore": "Trained in the frozen wastes of Siberia by Camus of Aquarius. He commands ice-based techniques like the Diamond Dust and Aurora Execution, tied deeply to the tragic memory of his mother trapped beneath the icy waters of the Kara Sea."
     },
@@ -93,7 +72,8 @@
       "status": "Ready",
       "image": "/Shun.png",
       "isCustom": false,
-      "lore": "Trained on Death Queen Island and Andromeda Island, he possesses one of the most powerful and versatile defenses in the universe through the Andromeda Chain. Despite his immense latent power and gentle, pacifist nature, he harbors a sacred destiny as the true vessel of Hades."
+      "lore": "Trained on Death Queen Island and Andromeda Island, he possesses one of the most powerful and versatile defenses in the universe through the Andromeda Chain. Despite his immense latent power and gentle, pacifist nature, he harbors a sacred destiny as the true vessel of Hades.",
+      "comments": ""
     },
     {
       "id": "7",
@@ -104,7 +84,8 @@
       "status": "Ready",
       "image": "/Ikki.png",
       "isCustom": false,
-      "lore": "The lone wolf and strongest of the Bronze Saints, trained on the brutal Death Queen Island. Clad in the Phoenix Cloth—the only Bronze Cloth capable of self-regeneration—he repeatedly rises from the ashes to assist Seiya and his comrades in desperate moments."
+      "lore": "The lone wolf and strongest of the Bronze Saints, trained on the brutal Death Queen Island. Clad in the Phoenix Cloth—the only Bronze Cloth capable of self-regeneration—he repeatedly rises from the ashes to assist Seiya and his comrades in desperate moments.",
+      "comments": ""
     },
     {
       "id": "8",
@@ -115,7 +96,8 @@
       "status": "Ready",
       "image": "/Marin.png",
       "isCustom": false,
-      "lore": "A Japanese-born Silver Saint stationed in Sanctuary who served as Seiya's mentor. Her tactical intellect, agility, and mastery of aerial combat guided Seiya through his early trials as a candidate for the Pegasus Cloth."
+      "lore": "A Japanese-born Silver Saint stationed in Sanctuary who served as Seiya's mentor. Her tactical intellect, agility, and mastery of aerial combat guided Seiya through his early trials as a candidate for the Pegasus Cloth.",
+      "comments": ""
     },
     {
       "id": "9",
@@ -126,7 +108,8 @@
       "status": "Ready",
       "image": "/Shaina.png",
       "isCustom": false,
-      "lore": "Initially hostile toward Seiya after he broke her mask, forcing her to reveal her face. Over time, her feelings evolved into a deep devotion. She played a vital role in protecting Athena and fighting alongside the Bronze Saints during the Sanctuary and Hades arcs."
+      "lore": "Initially hostile toward Seiya after he broke her mask, forcing her to reveal her face. Over time, her feelings evolved into a deep devotion. She played a vital role in protecting Athena and fighting alongside the Bronze Saints during the Sanctuary and Hades arcs.",
+      "comments": ""
     },
     {
       "id": "10",
@@ -159,9 +142,10 @@
       "constellation": "Lyra",
       "cosmosPower": 180,
       "status": "Ready",
-      "image": "/Orphée.png",
+      "image": "/Orphee-cropped.png",
       "isCustom": false,
-      "lore": "Widely considered the strongest Silver Saint, whose lyre music could enchant both men and gods. He chose to remain in the Underworld alongside his deceased lover Eurydice, later aiding Seiya and Shun in their infiltration of Hades' domain."
+      "lore": "Widely considered the strongest Silver Saint, whose lyre music could enchant both men and gods. He chose to remain in the Underworld alongside his deceased lover Eurydice, later aiding Seiya and Shun in their infiltration of Hades' domain.",
+      "comments": ""
     },
     {
       "id": "13",
@@ -170,9 +154,10 @@
       "constellation": "Aries",
       "cosmosPower": 240,
       "status": "Ready",
-      "image": "/Mu.png",
+      "image": "/Mu-cropped.png",
       "isCustom": false,
-      "lore": "The calm and wise Gold Saint of Aries residing at Jamir. He is the master of psychokinesis, teleportation, and the Starlight Extinction. As the only surviving blacksmith capable of repairing damaged Cloths, he played a pivotal role during the Sanctuary and Hades arcs."
+      "lore": "The calm and wise Gold Saint of Aries residing at Jamir. He is the master of psychokinesis, teleportation, and the Starlight Extinction. As the only surviving blacksmith capable of repairing damaged Cloths, he played a pivotal role during the Sanctuary and Hades arcs.",
+      "comments": ""
     },
     {
       "id": "14",
@@ -183,18 +168,20 @@
       "status": "Ready",
       "image": "/Aldebaran.png",
       "isCustom": false,
-      "lore": "The towering Gold Saint of Taurus known as the 'Golden Ox of Sanctuary'. Armed with the devastating Great Horn technique, he harbored a noble spirit and ultimately recognized Seiya's resolve during their duel at the Second Temple."
+      "lore": "The towering Gold Saint of Taurus known as the 'Golden Ox of Sanctuary'. Armed with the devastating Great Horn technique, he harbored a noble spirit and ultimately recognized Seiya's resolve during their duel at the Second Temple.",
+      "comments": ""
     },
     {
       "id": "15",
       "name": "Saga",
-      "rank": "Gold",
+      "rank": "Gold Saint",
       "constellation": "Gemini",
-      "cosmosPower": 275,
+      "cosmosPower": 250,
       "status": "Ready",
       "image": "/Saga.png",
       "isCustom": false,
-      "lore": "The Gemini Gold Saint who secretly harbored a dark, dual personality. He assassinated Pope Shion thirteen years before the main storyline, usurped his position, and attempted to kill the infant Athena before being redeemed at the end of the Twelve Houses."
+      "lore": "The Gemini Gold Saint who secretly harbored a dark, dual personality. He assassinated Pope Shion thirteen years before the main storyline, usurped his position, and attempted to kill the infant Athena before being redeemed at the end of the Twelve Houses.",
+      "comments": ""
     },
     {
       "id": "16",
@@ -205,7 +192,8 @@
       "status": "Ready",
       "image": "/Deathmask.png",
       "isCustom": false,
-      "lore": "A cruel and ruthless Gold Saint who believed that 'might makes right', decorating his temple with the faces of his victims. He was cast down into Yomotsu Hirasaka by Shiryu when his Cancer Gold Cloth abandoned him due to his wicked heart."
+      "lore": "A cruel and ruthless Gold Saint who believed that 'might makes right', decorating his temple with the faces of his victims. He was cast down into Yomotsu Hirasaka by Shiryu when his Cancer Gold Cloth abandoned him due to his wicked heart.",
+      "comments": ""
     },
     {
       "id": "17",
@@ -217,18 +205,19 @@
       "image": "/Aiolia.png",
       "isCustom": false,
       "lore": "The younger brother of Aiolos, burdened for years by the stigma of being a traitor's sibling. Once enlightened to the truth of Pope Saga's betrayal, he became a fierce defender of Athena, utilizing his blinding Lightning Bolt and Lightning Plasma attacks.",
-      "comments": "This ones gets angry all the time"
+      "comments": ""
     },
     {
       "id": "18",
       "name": "Shaka",
-      "rank": "Gold",
+      "rank": "Gold Saint",
       "constellation": "Virgo",
-      "cosmosPower": 280,
+      "cosmosPower": 250,
       "status": "Ready",
-      "image": "/Shaka.png",
+      "image": "/Shaka-cropped.png",
       "isCustom": false,
-      "lore": "Revered as the man closest to a god due to his immense spiritual enlightenment. By keeping his eyes closed, he constantly accumulates vast amounts of Cosmos, unleashing it through terrifying techniques like the Tenbu Horin."
+      "lore": "Revered as the man closest to a god due to his immense spiritual enlightenment. By keeping his eyes closed, he constantly accumulates vast amounts of Cosmos, unleashing it through terrifying techniques like the Tenbu Horin.",
+      "comments": ""
     },
     {
       "id": "19",
@@ -237,9 +226,10 @@
       "constellation": "Libra",
       "cosmosPower": 270,
       "status": "Ready",
-      "image": "/Dohko.png",
+      "image": "/Dohko-cropped.png",
       "isCustom": false,
-      "lore": "A survivor of the previous Holy War alongside Shion. Blessed by Athena with the Misopethamenos technique, his heart beat only once a day over 243 years while guarding the seal of Hades' 108 Specters at Rozan."
+      "lore": "A survivor of the previous Holy War alongside Shion. Blessed by Athena with the Misopethamenos technique, his heart beat only once a day over 243 years while guarding the seal of Hades' 108 Specters at Rozan.",
+      "comments": ""
     },
     {
       "id": "20",
@@ -249,7 +239,7 @@
       "cosmosPower": 250,
       "status": "Ready",
       "image": "/Milo.png",
-      "comments": "This one destroyed a full island",
+      "comments": "",
       "isCustom": false,
       "lore": "The fierce Scorpio Gold Saint who utilizes the Scarlet Needle, a series of 15 needle-like strikes that inflict excruciating pain and sensory deprivation on his opponents before the final Antares blow."
     },
@@ -262,7 +252,8 @@
       "status": "Ready",
       "image": "/Aiolos.png",
       "isCustom": false,
-      "lore": "The righteous Sagittarius Gold Saint branded a traitor after saving the baby Athena from Saga's assassination attempt. Though he died protecting her, his lingering soul and golden bow continue to guide the Bronze Saints in times of peril."
+      "lore": "The righteous Sagittarius Gold Saint branded a traitor after saving the baby Athena from Saga's assassination attempt. Though he died protecting her, his lingering soul and golden bow continue to guide the Bronze Saints in times of peril.",
+      "comments": ""
     },
     {
       "id": "22",
@@ -273,7 +264,8 @@
       "status": "Ready",
       "image": "/Shura.png",
       "isCustom": false,
-      "lore": "The Capricorn Gold Saint whose arms and legs were blessed by Athena to become as sharp as legendary swords, capable of executing the fatal Excalibur. He fought Shiryu at the Tenth Temple before passing Excalibur to him in remorse."
+      "lore": "The Capricorn Gold Saint whose arms and legs were blessed by Athena to become as sharp as legendary swords, capable of executing the fatal Excalibur. He fought Shiryu at the Tenth Temple before passing Excalibur to him in remorse.",
+      "comments": ""
     },
     {
       "id": "23",
@@ -282,9 +274,10 @@
       "constellation": "Aquarius",
       "cosmosPower": 250,
       "status": "Ready",
-      "image": "/Milo.png",
+      "image": "/Camus.png",
       "isCustom": false,
-      "lore": "The master of ice and cold, known as the 'Water and Cold Magician'. He trained Hyoga in Siberia, seeking to teach him true detachment through the ultimate freezing technique, the Aurora Execution."
+      "lore": "The master of ice and cold, known as the 'Water and Cold Magician'. He trained Hyoga in Siberia, seeking to teach him true detachment through the ultimate freezing technique, the Aurora Execution.",
+      "comments": ""
     },
     {
       "id": "24",
@@ -293,11 +286,24 @@
       "constellation": "Pisces",
       "cosmosPower": 240,
       "status": "Ready",
-      "image": "/Aphrodite.png",
+      "image": "/Aphrodite-cropped.png",
       "isCustom": false,
-      "lore": "The Pisces Gold Saint who championed the philosophy that 'might makes right', supporting Saga even after knowing his crimes. He commanded deadly poisoned roses, including the Royal Demon Rose and the Piranhan Rose."
+      "lore": "The Pisces Gold Saint who championed the philosophy that 'might makes right', supporting Saga even after knowing his crimes. He commanded deadly poisoned roses, including the Royal Demon Rose and the Piranhan Rose.",
+      "comments": ""
     }
   ],
-  "campaigns": [],
+  "campaigns": [
+    {
+      "id": "c06704ca-1f41-44d7-a22f-072d489e8c75",
+      "status": "active",
+      "wins": 0,
+      "losses": 0,
+      "battles": 0,
+      "winTarget": 3,
+      "lossLimit": 3,
+      "createdAt": "2026-11-11T22:24:02.580Z",
+      "completedAt": null
+    }
+  ],
   "battles": []
 }

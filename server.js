@@ -451,6 +451,10 @@ server.post('/api/war/campaigns', async (_req, res) => {
     completedAt: null,
   };
 
+  state.saints = (state.saints || []).map((saint) => ({
+    ...saint,
+    comments: '',
+  }));
   state.campaigns.push(campaign);
   try {
     db.setState(state);
