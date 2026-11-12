@@ -292,18 +292,6 @@
       "comments": ""
     }
   ],
-  "campaigns": [
-    {
-      "id": "c06704ca-1f41-44d7-a22f-072d489e8c75",
-      "status": "active",
-      "wins": 0,
-      "losses": 0,
-      "battles": 0,
-      "winTarget": 3,
-      "lossLimit": 3,
-      "createdAt": "2026-11-11T22:24:02.580Z",
-      "completedAt": null
-    }
-  ],
+  "campaigns": [],
   "battles": []
 }

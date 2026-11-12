@@ -1,29 +1,53 @@
 try {
   const path = require('node:path');
   const fs = require('node:fs');
-
-  for (const envPath of [
-    path.join(__dirname, '.env'),
-    path.resolve(__dirname, '../saint-seiya-client/.env'),
-  ]) {
-    if (fs.existsSync(envPath)) {
-      process.loadEnvFile(envPath);
-    }
+  const envPath = path.join(__dirname, '.env');
+  if (fs.existsSync(envPath)) {
+    process.loadEnvFile(envPath);
   }
 } catch (error) {
   console.error('Failed to load environment files:', error);
 }
 
 const jsonServer = require('json-server');
+const cors = require('cors');
+const { rateLimit } = require('express-rate-limit');
 const server = jsonServer.create();
+server.set('trust proxy', 1);
 
-const middlewares = jsonServer.defaults();
+const allowedOrigins = new Set(
+  (process.env.CLIENT_ORIGINS || 'http://localhost:5173')
+    .split(',')
+    .map((origin) => origin.trim())
+    .filter(Boolean)
+);
+const aiRateLimitOptions = {
+  windowMs: 15 * 60 * 1000,
+  standardHeaders: true,
+  legacyHeaders: false,
+  message: { error: 'Too many requests. Please try again later.' },
+};
+const generateLoreRateLimit = rateLimit({
+  ...aiRateLimitOptions,
+  limit: 20,
+});
+const sanctuaryAlertRateLimit = rateLimit({
+  ...aiRateLimitOptions,
+  limit: 30,
+});
+
+server.use(cors({
+  origin(origin, callback) {
+    callback(null, !origin || allowedOrigins.has(origin));
+  },
+}));
+const middlewares = jsonServer.defaults({ noCors: true });
 server.use(middlewares);
 server.use(jsonServer.bodyParser);
 
 const GROQ_API_URL = 'https://api.groq.com/openai/v1/chat/completions';
 const GROQ_MODEL = 'openai/gpt-oss-20b';
-const GROQ_API_KEY = process.env.GROQ_API_KEY || process.env.VITE_GROQ_API_KEY;
+const GROQ_API_KEY = process.env.GROQ_API_KEY;
 const SAINT_RECOVERY_TIME_MS = 60 * 1000;
 const COSMOS_AWAKENING_CHANCE = 0.2;
 const MIN_BATTLE_WIN_CHANCE = 0.1;
@@ -91,7 +115,7 @@ function generateCustomPortraitUrl(name, rank, gender, constellation) {
   }
 }
 
-server.post('/api/generate-lore', async (req, res) => {
+server.post('/api/generate-lore', generateLoreRateLimit, async (req, res) => {
   const { saintName, rank, constellation, gender, isCustom } = req.body || {};
 
   if (!isCustom) {
@@ -144,7 +168,7 @@ STRICT RULES:
   }
 });
 
-server.post('/api/sanctuary-alert', async (req, res) => {
+server.post('/api/sanctuary-alert', sanctuaryAlertRateLimit, async (req, res) => {
   if (!GROQ_API_KEY) {
     return res.status(500).json({ error: 'GROQ_API_KEY is not configured on the server.' });
   }
